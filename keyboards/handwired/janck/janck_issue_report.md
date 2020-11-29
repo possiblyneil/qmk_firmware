@@ -14,7 +14,7 @@ https://github.com/possiblyneil/qmk_firmware/tree/master/keyboards/handwired/jan
 ##  Hardware checks:
 ### Microcontroler
 - The defined pins were shorted together for each row and column with a keyboard tester active and it looks like the defined pins produce keypressess on all rows and columns 
-![Keyboard tester results](https://imgur.com/a/KhGLi8Z)
+![Keyboard tester results](https://i.imgur.com/0oSOgxf.png)
     ```
 *** HID console connected: possiblyneil janck (DEAD:BEEF:0001)
 KL: col: 0, row: 0, pressed: 1
