@@ -15,7 +15,7 @@ https://github.com/possiblyneil/qmk_firmware/tree/master/keyboards/handwired/jan
 ### Microcontroler
 - The defined pins were shorted together for each row and column with a keyboard tester active and it looks like the defined pins produce keypressess on all rows and columns 
 ![Keyboard tester results](https://i.imgur.com/0oSOgxf.png)
-    ```
+```
 *** HID console connected: possiblyneil janck (DEAD:BEEF:0001)
 KL: col: 0, row: 0, pressed: 1
 KL: col: 0, row: 1, pressed: 1
@@ -123,7 +123,7 @@ keyboard_report: 01 00 00 00 00 00 00 00
 keyboard_report: 02 00 00 00 00 00 00 00 
 keyboard_report: 04 00 00 00 00 00 00 00 
 keyboard_report: 08 00 00 00 00 00 00 00 
-    ```
+```
 ### Diodes
 - All of the diodes were checked for functionality using a multimeter with the diode function
 ### Switches
@@ -141,7 +141,7 @@ keyboard_report: 08 00 00 00 00 00 00 00
     ```
 - Console and debug enabled in firmware, viewed in QMK toolbox
     * There is nada from column 3 (zero indexed) when keys are pressed. For 0,1,2 things look fine:
-    ```
+```
 *** HID console connected: possiblyneil janck (DEAD:BEEF:0001)
 KL: col: 0, row: 0, pressed: 1
 KL: col: 0, row: 1, pressed: 1
@@ -167,4 +167,4 @@ keyboard_report: 00 00 2B 00 00 00 00 00
 keyboard_report: 01 00 00 00 00 00 00 00 
 keyboard_report: 02 00 00 00 00 00 00 00 
 keyboard_report: 04 00 00 00 00 00 00 00 
-    ```
+```
