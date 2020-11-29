@@ -135,10 +135,10 @@ keyboard_report: 08 00 00 00 00 00 00 00
 
 ##  Software checks:
 - Details of the pinouts chosen for the Pro Micro
-    ```
+```
 #define MATRIX_ROW_PINS { D1, D0, D4, C6 }
 #define MATRIX_COL_PINS { B5, B4, E6, D7, B6, B2, B3, B1, F7, F6, F5, F4 }
-    ```
+```
 - Console and debug enabled in firmware, viewed in QMK toolbox
     * There is nada from column 3 (zero indexed) when keys are pressed. For 0,1,2 things look fine:
 ```
