@@ -50,10 +50,19 @@
 
 #ifdef RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 1
+#define RGBLED_NUM 49
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
+//TODO: This needs to be tested at full whack then brought down to eighty percent or so
+#define RGBLIGHT_LIMIT_VAL 155
+//TODO: This needs to be tested
+/* Top->Bottom, Right->Left */
+#define RGBLIGHT_LED_MAP { \
+		 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, \
+		25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, \
+		26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, \
+	        48, 47, 46, 45, 44, 43, 42, 41, 40, 39 }
 #endif
 
 #endif
