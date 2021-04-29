@@ -1,0 +1,7 @@
+OLED_DRIVER_ENABLE  	= yes
+TAP_DANCE_ENABLE        = yes
+RGBLIGHT_ENABLE 		= yes
+MOUSEKEY_ENABLE			= no
+CONSOLE_ENABLE			= no
+
+EXTRAFLAGS 				+= -flto
